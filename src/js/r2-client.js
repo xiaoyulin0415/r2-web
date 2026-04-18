@@ -16,8 +16,8 @@ class R2Client {
     this.#config = configManager
     const cfg = configManager.get()
     this.#client = new AwsClient({
-      accessKeyId: cfg.accessKeyId,
-      secretAccessKey: cfg.secretAccessKey,
+      accessKeyId: '6a9b3187db9cf137f0c45b5d4b25ef10'
+      secretAccessKey: '20ca708e37f330bef4526268e8b4521174b2b6afdbf70d5cc8538df900d13535'
       service: 's3',
       region: 'auto',
     })
